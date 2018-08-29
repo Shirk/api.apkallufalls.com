@@ -46,8 +46,11 @@ module.exports = function(fileName, content, folder, callback) {
     <meta name="twitter:description" content="${content.description}">
     <meta name="twitter:image" content="${twitterImage}">
     <meta name="article:section" content="${content.section}">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>${content.title}</title>
     <link rel="icon" type="image/png" href="/icon/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
     <script>
       var segmentCount = 0;
       var l = window.location;
